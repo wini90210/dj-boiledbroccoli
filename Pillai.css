@@ -1,0 +1,83 @@
+
+/* @media ASSISTS WITH RESPONSIVE LAYOUT: DO NOT EDIT */
+@media (max-width: 768px) {
+    article {
+        padding: 10px;
+    }
+}
+
+/* DEFAULT STYLE FOR BODY */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;   /* Sets the default font family */
+    padding: 10px;
+    margin: 18px;
+    text-align: justify;
+    color: black;   /* Sets the default text color */
+    background-color: whitesmoke;
+     
+}
+
+/* STYLE FOR HEADER */
+header {
+    background-color: black;   /* Sets the background color */
+    color: white;   /* Sets the text color */
+    padding: 20px 20px;   /* Adds padding inside the header */
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 44px;   /* Sets the font size */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* STYLE FOR FOOTER */
+footer {
+    text-align: center;   /* Aligns the text */
+    margin-top: 20px;   /* Adds a margin above the footer */
+    padding: 10px 0px;   /* Add padding to the inside top and bottom of the footer */
+    background-color: black;   /* Sets the background color */
+    color: #fff;   /* Sets the texxt color */
+}
+
+/* STYLE FOR <h1> HEADINGS */
+h1 {
+    font-size: 40px;   /* Sets the font size */
+    margin-top: 0;   /* Removes the default above the heading */
+}
+
+/* STYLE FOR PARAGRAPHS */
+p {
+    line-height: 1.6;  /* Sets the line height to improve readability */
+    margin-bottom: 20px;   /* Adds additonal margin below the paragraph */
+    font-size: 16px;  /* Sets the font size */
+}
+
+/* STYLE FOR IMAGES */
+img {
+    width: 100%;
+}
+
+/* CSS CLASS FOR MAIN ARTICLE DIV */
+.articleMain {
+    max-width: 800px;   /* Limits the width of the div */
+    margin: 40px auto;   /* Adds a margin above and below the div and centers the div horizontally */
+    padding: 40px;   /* Adds padding inside the div on the left and right */
+    border: solid black 1px;
+}
+
+/* CSS CLASS FOR ARTICLE BYLINE */
+.articleByline {
+    font-weight: bold;   /* Sets the text to bold */
+}
+
+/* CSS CLASS FOR IMAGE CREDITS */
+.imageCredit {
+    font-size: 12px;   /* Sets the font size */
+    font-style: italic;
+    text-align: left;   /* Aligns the text  */
+    margin-top: 0px;   /* Removes the default margin above */
+    margin-bottom: 0px;   /* Removes the default margin below */
+}
+
+/* CSS CLASS FOR DATA VISUALIZATIONS */
+.articleDataviz {
+    margin: 40px 0px;   /* Adds additional margin above and below */
+}
